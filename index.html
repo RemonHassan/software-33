@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift for You</title>
+    <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon" />
+    <!-- daisyUi -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/6420d9e702.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .dancing-script-font {
+        font-family: "Dancing Script", cursive;
+      }
+      .noto-sans-font {
+        font-family: "Noto Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="noto-sans-font bg-gradient-to-b from-pink-400 to-pink-700">
+    <div class="hero min-h-screen">
+      <div
+        class="hero-content flex-col-reverse lg:flex-row-reverse gap-1 lg:gap-16"
+      >
+        <div class="card bg-pink-100 w-full max-w-sm shrink-0 shadow-2xl">
+          <form class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Email</span>
+              </label>
+              <input
+                type="email"
+                placeholder="email"
+                class="input input-bordered"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Password</span>
+              </label>
+              <input
+                type="password"
+                placeholder="password"
+                class="input input-bordered"
+                required
+              />
+              <label class="label">
+                <a href="#" class="label-text-alt link link-hover"
+                  >Forgot password?</a
+                >
+              </label>
+            </div>
+            <div class="form-control mt-6">
+              <button
+                class="btn transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-pink-600 duration-300 bg-pink-500 text-3xl dancing-script-font text-white font-extrabold"
+              >
+                <a href="homepage.html">Login</a>
+                <i class="fa-solid fa-gift text-white"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="text-center mb-4 lg:text-left">
+          <div class="flex justify-center lg:justify-start">
+            <img
+              class="bg-pink-300 rounded-3xl p-3"
+              src="icons/logo.png"
+              alt=""
+            />
+          </div>
+          <p
+            class="py-6 font-bold text-4xl text-white text-center dancing-script-font border rounded-2xl mt-4"
+          >
+            One Click, <br />
+            Countless Joys <i class="fa-solid fa-heart"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
