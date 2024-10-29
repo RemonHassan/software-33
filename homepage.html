@@ -38,13 +38,14 @@
         font-family: "Noto Sans", sans-serif;
       }
     </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body class="noto-sans-font bg-pink-600">
-    <header>
+  <body class="noto-sans-font body">
+    <header class="w-11/12 mx-auto">
       <div class="navbar">
         <div class="flex-1">
           <a
-            class="btn btn-ghost dancing-script-font text-white text-2xl lg:text-3xl"
+            class="btn btn-ghost dancing-script-font text-white text-3xl lg:text-3xl"
             ><span class="text-3xl lg:text-5xl">Gift</span> for you
             <i class="fa-solid fa-gift text-white"></i
           ></a>
@@ -87,26 +88,62 @@
         </div>
       </div>
     </header>
-    <main>
-      <div class="container mx-auto mt-8 lg:mt-16">
-        <div class="flex justify-center gap-5">
-          <div>
-            <a class="btn btn-lg" href=""
-              >Customize <i class="fa-solid fa-pen-to-square"></i
+    <main class="w-11/12 mx-auto">
+      <div class="container border  mx-auto mt-8 lg:mt-16 bg-white lg:w-1/2 p-5 rounded-md">
+        <div class="grid grid-cols-1 lg:grid-cols-2 justify-evenly space-y-2 lg:space-y-0 gap-0 lg:gap-2">
+            <a class="btn btn-lg bg-sky-700 border-gray-600 text-white lg:text-2xl p-4 items-center shadow-md" href=""
+              >Customize <i class="fa-solid fa-pen-to-square text-white"></i
             ></a>
-          </div>
-          <div>
-            <a class="btn btn-lg" href=""
-              >First free Delivery</i
+            <a class="btn btn-lg bg-sky-700 border-gray-600 text-white lg:text-2xl p-4 items-center shadow-md" href=""
+              ><span><i class="fa-solid fa-truck text-white"></i> First free Delivery</span></i
             ></a>
-          </div>
+        </div>
+      </div>
+      <!-- carosol  -->
+      <div class="carousel rounded-box my-7 border border-blue-950 border-dashed">
+        <div class="carousel-item rounded-lg">
+          <img class="w-[350px]"
+            src="images/shirtt.jpg"
+            alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img
+          class="w-[350px]"
+            src="images/sariii.avif"
+            alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img
+          class="w-[350px]"
+            src="images/food.jpg"
+            alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+            alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+            alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+            alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+            alt="Burger" />
         </div>
       </div>
       <div class="container mx-auto mt-16 grid grid-cols-1 lg:grid-cols-4 justify-center gap-6">
-        <button class="btn btn-lg bg-slate-400"><i class="fa-solid fa-utensils"></i>  Food</button>
-        <button class="btn btn-lg bg-slate-400"><i class="fa-regular fa-gem"></i>  Accessories</button>
-        <button class="btn btn-lg bg-slate-400"><i class="fa-solid fa-fan"></i>  Flowers</button>
-        <button class="btn btn-lg bg-slate-400"><i class="fa-solid fa-shirt"></i>  Cloths</button>
+        <button class="btn btn-lg bg-orange-500 dancing-script-font font-extrabold text-4xl border-orange-300"><i class="fa-solid fa-utensils"></i>  <a href="">Food</a></button>
+        <button class="btn btn-lg bg-blue-950 dancing-script-font font-extrabold text-4xl text-white border-orange-300"><i class="fa-regular fa-gem"></i>  <a href="">Accessories</a></button>
+        <button class="btn btn-lg bg-pink-600 dancing-script-font font-extrabold text-4xl border-orange-300"><i class="fa-solid fa-fan"></i>  <a href="">Flowers</a></button>
+        <button class="btn btn-lg bg-amber-900 dancing-script-font font-extrabold text-4xl text-white border-orange-300"><i class="fa-solid fa-shirt"></i>  <a href="">Clothings</a></button>
       </div>
     </main>
   </body>
